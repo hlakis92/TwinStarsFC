@@ -15,8 +15,25 @@ class Home extends React.Component {
                         <h2>Latest Updates</h2>
                         <SimpleImageSlider />
                     </Col>
-                    <Col size="md-4">
-                        <div>Some kind of text</div>
+                    <Col size="lg-4">
+                    <h3 style = {{ 
+                        marginTop : "80px"}}>
+                        Next Match
+                    </h3>
+                    <div>
+                        <img src={require("../../images/NextMatch.jpg")} 
+                        alt="NextMatch" 
+                        style = {{
+                        width : "100%", 
+                        height : "100%", 
+                        marginTop : "20px"}} />
+                        </div>
+                    <div>
+                       <p>SEASON OPENER ALERT! Get your season tickets now! This
+                          will be a match you do not want to miss. The season OPENER
+                          vs MPLS City FC will be one for the books! 
+                       </p>  
+                    </div>
                     </Col>
                 </Row>
                 <Row>
@@ -24,7 +41,17 @@ class Home extends React.Component {
                         Some more text
                     </Col>
                     <Col size="lg-4">
-                        <div>Some kind of text</div>
+                    <h3>
+                        Team Schedule
+                    </h3>
+                    <div>
+                        <img src={require("../../images/Schedule.jpeg")} 
+                        alt="TwinstarsSchedule" 
+                        style = {{
+                        width : "100%", 
+                        height : "100%", 
+                        marginTop : "20px"}} />
+                        </div>
                     </Col>
                 </Row>
             </Container>

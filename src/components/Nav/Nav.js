@@ -8,7 +8,7 @@ const Nav = () =>
   <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
     <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Twinstars FC
+          Minnesota Twinstars FC
         </a>
       <div>
         <span className="nav-Links">
@@ -21,8 +21,8 @@ const Nav = () =>
           <a href="/News" className="navbar-brand">
             News
           </a>
-          <a href="/Partners" className="navbar-brand">
-            Partners
+          <a href="/Roster" className="navbar-brand">
+            Roster
           </a>
         </span>
       </div>

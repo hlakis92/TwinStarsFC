@@ -14,7 +14,7 @@ const images = [
 const App = () => 
     <div>
       <SimpleImageSlider
-        width={896}
+        width={800}
         height={504}
         images={images}
         showBullets={true}

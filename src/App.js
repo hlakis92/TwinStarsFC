@@ -14,7 +14,20 @@ class App extends Component {
     return (
       <React.Fragment>
         <Layout>
-        <img src={require(".//TwinStarsLogoNBG.png")} alt="TwinstarsLogo" width="300" height="300" top="10" />
+        <img 
+        src={require(".//TwinStarsLogoNBG.png")} 
+        alt="TwinstarsLogo" 
+        width="250" 
+        height="250" 
+        top="10" />
+        <div>
+          <h1 style = {{
+          width : "100%", 
+          height : "100%", 
+          float: "right"}}>
+            One Team One Dream
+          </h1>
+          </div>
           <Nav />
             <BrowserRouter>
               <Routes>
